@@ -12,7 +12,7 @@ nav {
     display: inline-block;
 }
 
-h1 {
+header>h1 {
     font-family: 'Recursive', sans-serif;
     color: #001a33;
     display: inline-block;
@@ -58,4 +58,38 @@ a {
 
 #links:focus, #button:focus{
     color: #e6f2ff;
+}
+
+article#informacao {
+    display: inline-block;
+    background-color: #001a33;
+    height: 125px;
+    width: 350px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 black;
+    color: white;
+    margin-top: 150px;
+    margin-left: 120px;
+    font-family:  'Roboto', Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+article#informacao>h1 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-bottom: 14px;
+    color: #808080;
+}
+
+article#informacao>h2 {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    margin-top: 14px;
+    margin-bottom: 20px;
 }
