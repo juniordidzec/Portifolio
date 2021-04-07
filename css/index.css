@@ -60,6 +60,11 @@ a {
     color: #e6f2ff;
 }
 
+main {
+    background-image: url("https://ohlaladani.com.br/wp-content/uploads/wallpaper-OHLALADANI_DESKTOP_WALLPAPERS_AVENTURA-2.jpg");
+    height: 570px;
+}
+
 article#informacao {
     display: inline-block;
     background-color: #001a33;
@@ -92,4 +97,29 @@ article#informacao>h2 {
     line-height: 30px;
     margin-top: 14px;
     margin-bottom: 20px;
+}
+
+.buttonLeft, .buttonRight {
+    display: inline-block;
+    background-color: #001a33;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 black;
+    transition: transform 100ms linear, opacity 200ms ease-in-out;
+    margin-top: 20px;
+}
+
+.buttonLeft {
+    margin-left: 155px;
+}
+
+.button:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+
+.button:focus{
+    color: #e6f2ff;
 }
