@@ -1,0 +1,12 @@
+.header {
+    display: flex;
+    background-color: #BFBFBF;
+    border-bottom: 10px solid black;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .title {
+    display: inline-block;
+}

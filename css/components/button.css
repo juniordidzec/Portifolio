@@ -1,0 +1,22 @@
+.button {
+    display: inline-block;
+    background-color: #001a33;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0 black;
+    transition: transform 100ms linear, opacity 200ms ease-in-out;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.button:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+}
+
+.button:focus{
+    color: #e6f2ff;
+}
