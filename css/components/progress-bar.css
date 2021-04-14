@@ -3,6 +3,7 @@
     background-color: #fff;
     border: 5px solid #000;
     height: 40px;
+    width: 300px;
 }
 
 .progress-bar::-moz-progress-bar,
