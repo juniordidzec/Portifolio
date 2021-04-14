@@ -1,11 +1,11 @@
-.title {
+.main-title {
     font-size: 40px;
     color: #001a33;
     text-shadow: 3px 3px 0px #000000;
     font-family: 'Recursive', sans-serif;
 }
 
-.title.-second {
+.main-title.-second {
     color: #000;
     text-shadow: none;
     text-align: center;
