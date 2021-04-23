@@ -12,6 +12,7 @@
     background-color: #a6a6a6;
 }
 
-.section -bdBlack {
-    border-bottom: 10px solid #000;
+.section.-bdGray {
+    border-bottom: 10px solid blueviolet;
+
 }
