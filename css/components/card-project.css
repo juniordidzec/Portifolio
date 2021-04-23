@@ -5,6 +5,8 @@
 }
 
 .card-project .logo{
+    background-color: #000;
     width: 200px;
     height: 200px;
+    box-shadow: 10px 10px 0px #fff;
 }
