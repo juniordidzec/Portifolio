@@ -1,4 +1,4 @@
-.action {
+.main-action {
     display: inline-flex;
     align-items: center;
     color: #fff;
@@ -9,7 +9,7 @@
     transition: 0.7s;
 }
 
-.action::before {
+.main-action::before {
     content: "";
     background-color: #001a33;
     width: 10px;
@@ -17,6 +17,6 @@
     margin-right: 10px;
 }
 
-.action:focus {
+.main-action:focus {
     color: #e6f2ff;
 }
