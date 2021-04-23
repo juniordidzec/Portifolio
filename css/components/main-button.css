@@ -1,4 +1,4 @@
-.button {
+.main-button {
     display: inline-block;
     background-color: #001a33;
     height: 60px;
@@ -12,11 +12,11 @@
     text-decoration: none;
 }
 
-.button:hover {
+.main-button:hover {
     transform: scale(1.03);
     opacity: 0.9;
 }
 
-.button:focus{
+.main-button:focus{
     color: #e6f2ff;
 }
