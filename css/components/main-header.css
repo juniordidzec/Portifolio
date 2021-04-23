@@ -1,4 +1,4 @@
-.header {
+.main-header {
     display: flex;
     background-color: #BFBFBF;
     border-bottom: 10px solid black;
@@ -7,6 +7,6 @@
     align-items: center;
 }
 
-.header .title {
+.main-header .title {
     display: inline-block;
 }
