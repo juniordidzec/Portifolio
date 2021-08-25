@@ -1,9 +1,8 @@
 .main-banner {
     background-image: url(./../../assents/img/photo.png);
     background-repeat: no-repeat;
-    background-size: 100%;
     height: 680px;
-    border-bottom: 10px solid #000;
+    border-bottom: 10px solid #001a33;
     box-sizing: border-box;
     padding-left: 100px;
     padding-top: 115px;

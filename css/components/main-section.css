@@ -14,5 +14,12 @@
 
 .main-section.-bdGray {
     border-bottom: 10px solid blueviolet;
+}
 
+.main-section.-bgDarkGray {
+    background-color: #1a1a1a;
+}
+
+.main-section.-bdWhite {
+    border-bottom: 10px solid white;
 }
