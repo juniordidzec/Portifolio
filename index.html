@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/components/main-description.css">
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
+    <link rel="stylesheet" href="css/components/main-carousel.css">
 
 
 </head>
@@ -138,33 +139,39 @@
     <section class="main-section -bgBlue">
         <h1 class="main-title -second">Sobre</h1>
 
-        <button class="button-arrow -left"><span class="content">Voltar</span></button>
-        <figure class="node-card">
-            <figcaption class="title">2015</figcaption>
-            <img src="img/logo-educar.png" alt="Logo Academia educar" class="logo  -noPad">
-        </figure>
+        <section class="main-carousel">
+            <button class="button-arrow -left"><span class="content">Voltar</span></button>
+            <div class="items">
+                <div class="elements">
+                    <figure class="node-card">
+                        <figcaption class="title">2015</figcaption>
+                        <img src="img/logo-educar.png" alt="Logo Academia educar" class="logo  -noPad">
+                    </figure>
 
-        <figure class="node-card">
-            <figcaption class="title">2016-2018</figcaption>
-            <img src="img/logo-etec.jpg" alt="Logo ETEC" class="logo">
-        </figure>
+                    <figure class="node-card">
+                        <figcaption class="title">2016-2017</figcaption>
+                        <img src="img/logo-etec.jpg" alt="Logo ETEC" class="logo">
+                    </figure>
 
-        <figure class="node-card">
-            <figcaption class="title">2019</figcaption>
-            <img src="img/logo-unisal.jpg" alt="Logo Unisal" class="logo -noPad">
-        </figure>
+                    <figure class="node-card">
+                        <figcaption class="title">2018</figcaption>
+                        <img src="img/logo-unisal.jpg" alt="Logo Unisal" class="logo -noPad">
+                    </figure>
 
-        <figure class="node-card">
-            <figcaption class="title">2020</figcaption>
-            <img src="img/logo-unifesp.jpg" alt="Logo Unifesp" class="logo">
-        </figure>
+                    <figure class="node-card">
+                        <figcaption class="title">2020</figcaption>
+                        <img src="img/logo-unifesp.jpg" alt="Logo Unifesp" class="logo">
+                    </figure> 
 
-        <figure class="node-card">
-            <figcaption class="title">2021</figcaption>
-            <img src="img/logo-hiringcoders.png" alt="Logo Unifesp" class="logo">
-        </figure>
-
-        <button class="button-arrow -right"><span class="content">Avançar</span></button>
+                    <!-- <figure class="node-card">
+                        <figcaption class="title">2021</figcaption>
+                        <img src="img/logo-hiringcoders.png" alt="Logo Unifesp" class="logo">
+                    </figure> -->
+                </div>
+            </div>
+            
+            <button class="button-arrow -right"><span class="content">Avançar</span></button>
+        </section>
 
         <p class="main-description">
             Hoje, estudante de ciência e tecnologia, na Unifesp, em São Jose dos Campos, Hélio busca aprender e se desenvolver no campo da computação, fazendo cursos e praticando, para no futuro se especializar em ciência da computação, também na Unifesp.
@@ -173,6 +180,7 @@
             A programação o chamou a atenção quando fez o curso técnico em eletrônica, o que posteriormente o levou a cursar um ano de engenharia elétrica, mas como não se encaixava totalmente a suas aspirações acabou desistindo do curso para se dedicar a entrar em uma faculdade que realizasse seus anseios.
         </p>
     </section>
+    <script src="js/components/main-carousel.js"></script>
 </body> 
 </html>
 <!--#10-->
