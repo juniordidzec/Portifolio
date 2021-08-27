@@ -5,7 +5,9 @@
     box-shadow: 5px 5px 0px #000;
     border-color: transparent;
     cursor: pointer;
+    position: absolute;
 }
+
 .button-arrow .content {
     display: none;
 }
