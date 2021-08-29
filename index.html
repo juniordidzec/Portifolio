@@ -26,12 +26,7 @@
     <link rel="stylesheet" href="css/components/button-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
-    <link rel="stylesheet" href="css/components/main-forms.css">
-    <link rel="stylesheet" href="css/components/form-content.css">
-    <link rel="stylesheet" href="css/components/div-form.css">
-    <link rel="stylesheet" href="css/components/insertion-box.css">
-    <link rel="stylesheet" href="css/components/main-footer.css">
-
+    <link rel="stylesheet" href="css/components/main-label.css">
 
 </head>
     
@@ -186,25 +181,19 @@
         </p>
     </section>
 
-    <section class="main-forms">
-        <form class="form-content">
-            <div class="div-form">
-                <label for="insertion-box -name">Nome</label>
-                <input type="text" class="insertion-box -name" title="Nome" placeholder="Nome">
-            </div>
+    <form>
+        <label class="main-label" for="name">Nome</label>
+        <input id="name" type="text" placeholder="Nome">
 
-            <div class="div-form">
-                <label for="insertion-box -email">E-mail</label>
-                <input type="email" class="insertion-box -email" title="E-mail" placeholder="Exemplo@exemplo.com">
-            </div>
+        <label class="main-label" for="email">E-mail</label>
+        <input id="email" type="email" placeholder="Exemplo@exemplo.com">
 
-            <div class="div-form">
-                <label for="insertion-box -message">Mensagem</label>
-                <input type="text" class="insertion-box -message" title="Mensagem" placeholder="Digite sua mensagem">
-            </div>
+        <label class="main-label" for="message">Mensagem</label>
+        <textarea id="message"></textarea>
 
-        </form>
-    </section>
+        <button type="submit">Enviar</button>
+    </form>
+
     <footer class="main-footer">
         <a href="https://www.linkedin.com/in/h%C3%A9lio-didzec-junior-a345b6213/" target="_blank">
             <img src="img/linkedin_logo.png" alt="Logo linkedIn">
