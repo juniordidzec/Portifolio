@@ -1,0 +1,12 @@
+.main-form {
+    padding: 50px 40px;
+    background-color: blueviolet;
+}
+
+.main-form .main-input {
+    margin-bottom: 20px;
+}
+
+.main-form .main-input.-message {
+    margin-bottom: 40px;
+}
