@@ -1,0 +1,6 @@
+.main-footer {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    padding: 10px;
+}

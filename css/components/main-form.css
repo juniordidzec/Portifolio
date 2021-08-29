@@ -3,6 +3,10 @@
     background-color: blueviolet;
 }
 
+.main-form .main-title {
+    margin-bottom: 50px;
+}
+
 .main-form .main-input {
     margin-bottom: 20px;
 }
