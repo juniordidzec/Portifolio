@@ -1,17 +1,6 @@
 .node-card {
-    display: inline-flex;
+    display: flex;
     flex-direction: column;
-    align-items: center;
-    position: relative;
-}
-
-.node-card::before{
-    content: '';
-    position: absolute;
-    height: 40px;
-    width: 0px;
-    border: 2.5px dashed #000;
-    bottom: 150px;
 }
 
 .node-card .title {
@@ -29,6 +18,24 @@
     background-color: #fff;
 }
 
-.node-card .logo.-noPad{
+.node-card .logo.-noPad {
     padding: 0;
+}
+
+.node-card.-item--hiden {
+    display: none;
+}
+
+.node-card .wrapper-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #000;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.node-card .wrapper-content .text {
+    height: 100%;
+    width: 60%;
 }

@@ -1,16 +1,29 @@
 const btnRight = document.querySelector('.button-arrow.-right');
 const btnleft = document.querySelector('.button-arrow.-left');
-const elements = document.querySelector('.elements');
-let pixels = 0;
+const slides = document.querySelectorAll('.node-card');
+let currentSlideIndex = 0;
 
 btnRight.addEventListener('click', function() {
-    pixels = pixels + 50;
-    elements.style = `transform: translateX(${pixels}px)`;
-    console.log(pixels);
+    if (currentSlideIndex === slides.length - 1) {
+        currentSlideIndex = 0;
+    } else {
+        currentSlideIndex++;
+    }
+    slides.forEach(slide => {
+        slide.classList.add('-item--hiden');
+    })
+    slides[currentSlideIndex].classList.remove('-item--hiden');
 });
 
 btnleft.addEventListener('click', function(){
-    pixels = pixels - 50;
-    elements.style = `transform: translateX(${pixels}px)`;
-    console.log(pixels);
+    if (currentSlideIndex === 0) {
+        currentSlideIndex = slides.length - 1;
+    } else {
+        currentSlideIndex--;
+    }
+
+    slides.forEach(slide => {
+        slide.classList.add('-item--hiden');
+    })
+    slides[currentSlideIndex].classList.remove('-item--hiden');
 });
