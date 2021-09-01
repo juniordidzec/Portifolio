@@ -1,29 +1,22 @@
 const btnRight = document.querySelector('.button-arrow.-right');
 const btnleft = document.querySelector('.button-arrow.-left');
-const slides = document.querySelectorAll('.node-card');
-let currentSlideIndex = 0;
+const items = document.querySelector('.items');
+let currentPixelIndex = 0;
 
 btnRight.addEventListener('click', function() {
-    if (currentSlideIndex === slides.length - 1) {
-        currentSlideIndex = 0;
+    if (currentPixelIndex <= 3000){
+        currentPixelIndex += 1000; 
     } else {
-        currentSlideIndex++;
+        currentPixelIndex = 0;
     }
-    slides.forEach(slide => {
-        slide.classList.add('-item--hiden');
-    })
-    slides[currentSlideIndex].classList.remove('-item--hiden');
+    items.scrollTo(currentPixelIndex, 0);
 });
 
 btnleft.addEventListener('click', function(){
-    if (currentSlideIndex === 0) {
-        currentSlideIndex = slides.length - 1;
+    if (currentPixelIndex > 0){
+        currentPixelIndex -= 1000; 
     } else {
-        currentSlideIndex--;
+        currentPixelIndex = 4000;
     }
-
-    slides.forEach(slide => {
-        slide.classList.add('-item--hiden');
-    })
-    slides[currentSlideIndex].classList.remove('-item--hiden');
+    items.scrollTo(currentPixelIndex, 0);
 });

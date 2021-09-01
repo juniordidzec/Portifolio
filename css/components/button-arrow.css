@@ -28,3 +28,11 @@
 .button-arrow.-left::before {
     transform: rotate(180deg) translate(10px);
 }
+
+.button-arrow.-right.-item--hiden {
+    display: none;
+}
+
+.button-arrow.-left.-item--hiden {
+    display: none;
+}

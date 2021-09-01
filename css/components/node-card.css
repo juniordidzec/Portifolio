@@ -1,11 +1,13 @@
 .node-card {
-    display: flex;
-    flex-direction: column;
+    flex: none;
+    width: 100%;
+    scroll-snap-align: start;
 }
 
 .node-card .title {
     font-size: 25px;
     font-weight: 400;
+    width: max-content;
     color: #000;
     background-color: #808080;
     padding: 0 10px;
@@ -26,10 +28,6 @@
     padding: 0;
 }
 
-.node-card.-item--hiden {
-    display: none;
-}
-
 .node-card .wrapper-content {
     display: flex;
     align-items: center;
@@ -42,4 +40,5 @@
 .node-card .wrapper-content .text {
     height: 100%;
     width: 60%;
+    padding-left: 20px; 
 }
