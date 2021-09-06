@@ -220,17 +220,18 @@
         </p>
     </section>
 
-    <form method="GET" class="main-form" id="contato">
+    <form  action="https://formsubmit.co/j.didzec@gmail.com" method="POST" class="main-form" id="contato">
+        <input type="hidden" name="_captcha" value="false">
         <legend class="main-title -second">Contato</legend>
         <label class="main-label" for="name">Nome</label>
-        <input class="main-input" id="input-name" type="text" placeholder="Nome" required>
+        <input class="main-input" name="name" type="text" placeholder="Nome" required>
 
         <label class="main-label" for="email">E-mail</label>
-        <input class="main-input" id="input-email" type="email" placeholder="Exemplo@exemplo.com" required>
+        <input class="main-input" name="email" type="email" placeholder="Exemplo@exemplo.com" required>
 
         <label class="main-label" for="message">Mensagem</label>
-        <textarea class="main-input -message" id="input-message" placeholder="Digite sua mensagem" required></textarea>
-
+        <textarea class="main-input -message" name="message" placeholder="Digite sua mensagem" required></textarea>
+        <input type="hidden" name="_next" value="https://juniordidzec.github.io/heliodidzecjunior/pages/thanks.html">
         <button class="main-button -full -submit" type="submit">Enviar</button>
     </form>
 
@@ -240,7 +241,5 @@
         </a>
     </footer>
     <script src="js/components/main-carousel.js"></script>
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="js/components/send-form.js"></script>
 </body>
 </html>

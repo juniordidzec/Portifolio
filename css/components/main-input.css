@@ -10,3 +10,7 @@
 .main-input.-message {
     height: 240px;
 }
+
+.main-input:invalid {
+    border: 3px solid #BFBFBF;
+}
