@@ -1,0 +1,9 @@
+@media screen and (max-width: 760px) {
+    .node-card .wrapper-content {
+        flex-direction: column;
+    }
+
+    .main-carousel .button-arrow{
+        bottom: 288px;
+    }
+}
