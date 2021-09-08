@@ -1,8 +1,4 @@
-@media screen and (max-width: 360px) {
-    .main-header {
-        flex-direction: column;
-    }
-
+@media screen and (max-width: 600px) {
     .main-header .navigation {
         display: none;
     }

@@ -1,4 +1,8 @@
 @media screen and (max-width: 760px) {
+    .main-header .navigation {
+        display: none;
+    }
+
     .node-card .wrapper-content {
         flex-direction: column;
     }
